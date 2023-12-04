@@ -8,7 +8,7 @@
 .sectionkon2 {
   flex: 1;
   display: flex;
-  align-items: flex-start; /* Align items to the top */
+  align-items: flex-start;
   justify-content: space-between;
   position: relative;
   width: 32%;
@@ -24,7 +24,7 @@
   height: auto;
   object-fit: cover;
   transition: transform 0.3s ease;
-  margin: 0; /* Remove margin */
+  margin: 0;
 }
 
 .text-containerkon2 {

@@ -9,19 +9,17 @@ const Reklaam = () => {
     <div className="reklaam-container">
       <h2>{genereeriReklaamiPealkiri()}</h2>
       <p>{genereeriReklaamiLõik()}</p>
-      <Link to="/reklaam">Loe rohkem</Link>
+      <Link to="/">Loe rohkem</Link>
     </div>
   );
 };
 
-// Funktsioon generatsiooniks reklaami pealkiri
 const genereeriReklaamiPealkiri = () => {
   const reklaamiPealkirjad = ['Eripakkumine!', 'Piiratud aja pakkumine', 'Avasta põnevaid pakkumisi', 'Ära maga maha!'];
   const juhuslikIndeks = Math.floor(Math.random() * reklaamiPealkirjad.length);
   return reklaamiPealkirjad[juhuslikIndeks];
 };
 
-// Funktsioon generatsiooniks reklaami lõik
 const genereeriReklaamiLõik = () => {
   const reklaamiLõigud = [
     'Uuri meie hämmastavaid tooteid ja leia endale täiuslik.',

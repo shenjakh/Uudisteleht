@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/EsimeneKon.css"
+import "../styles/EsimeneKon.css";
+import EsileheUu from "../data/Data"
 
 function Card({ imagePath, title, linkTo }) {
   return (
@@ -18,9 +19,14 @@ function Card({ imagePath, title, linkTo }) {
 function EsimeneKon() {
   return (
     <div className="esimene-kon-container">
-      <Card imagePath="https://images.unsplash.com/photo-1624821710880-d3217ac41792?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Card 1" linkTo="/card1" />
-      <div className="card-gap" />
-      <Card imagePath="https://images.unsplash.com/photo-1701209786009-38946c926513?q=80&w=2892&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Card 2" linkTo="/card2" />
+      {EsileheUu.map((item, index) => (
+        <Card
+          key={index}
+          imagePath={item.image}
+          title={item.title}
+          linkTo={`/card${index + 1}`}
+        />
+      ))}
     </div>
   );
 }

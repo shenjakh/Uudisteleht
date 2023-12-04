@@ -4,7 +4,6 @@ import "../styles/TeineKon.css";
 function TeineKon() {
   return (
     <div className="teine-kon-container">
-      {/* Container 1 */}
       <div className="sectionkon2">
         <div className="img-containerkon2">
           <img
@@ -26,7 +25,6 @@ function TeineKon() {
         </div>
       </div>
 
-      {/* Container 2 */}
       <div className="sectionkon2">
         <div className="img-containerkon2">
           <img
@@ -48,7 +46,6 @@ function TeineKon() {
         </div>
       </div>
 
-      {/* Container 3 */}
       <div className="sectionkon2">
         <div className="img-containerkon2">
           <img

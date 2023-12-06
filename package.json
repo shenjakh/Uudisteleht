@@ -1,7 +1,7 @@
 {
   "name": "elavpress",
   "version": "0.1.0",
-  "homepage": "https://shenjakh.github.io/uudised",
+  "homepage": "https://shenjakh.github.io/uudisteleht",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

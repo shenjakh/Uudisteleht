@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> a22d4db (second commit)
 
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";

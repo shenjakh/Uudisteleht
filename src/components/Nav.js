@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> a22d4db (second commit)
 
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -36,10 +40,10 @@ function Nav() {
 
             <div className="links-container">
                 <Link to="/">Esileht</Link>
-                <Link to="/">Kunst</Link>
+                {/* <Link to="/">Kunst</Link>
                 <Link to="/">Äri</Link>
                 <Link to="/">Poliitika</Link>
-                <Link to="/">Sport</Link>
+                <Link to="/">Sport</Link> */}
                 <Link to="/contact">Võta ühendust</Link>
             </div>
         </div>

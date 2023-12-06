@@ -1,9 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,500&family=Spectral+SC:ital@1&display=swap');
-
 .navigation-container {
-  font-family: 'Bodoni Moda', serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +15,6 @@
 }
 
 .info-container {
-  font-family: 'Spectral SC', serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,7 +29,6 @@
 }
 
 .links-container {
-  font-family: 'Bodoni Moda', serif;
   display: flex;
   flex-direction: row;
   gap: 15px;

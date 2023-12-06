@@ -1,32 +1,40 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/EsimeneKon.css";
-import EsileheUu from "../data/Data"
+import fetchData from "../data/ContentfulData";
 
-function Card({ imagePath, title, linkTo }) {
+function Card({ imagePath, title }) {
   return (
-    <Link to={linkTo} className="card-link">
       <div className="card">
-        <img src={imagePath} alt={title} />
+        <img src={imagePath} />
         <div className="text-container">
           <h3>{title}</h3>
         </div>
       </div>
-    </Link>
   );
 }
 
 function EsimeneKon() {
+  const [cardDataArray, setCardDataArray] = React.useState(null);
+
+  React.useEffect(() => {
+    const entryKeys = ['2ZvrvIgnlTjBGX7uOXlo9d', 'qpw5XAO2M2gNLj9RV811u', '5tIPHdImAmivexRShYoWXl'];
+    fetchData(entryKeys).then((dataArray) => {
+      if (dataArray) {
+        setCardDataArray(dataArray);
+      }
+    });
+  }, []);
+
   return (
-    <div className="esimene-kon-container">
-      {EsileheUu.map((item, index) => (
-        <Card
-          key={index}
-          imagePath={item.image}
-          title={item.title}
-          linkTo={`/card${index + 1}`}
-        />
-      ))}
+    <div>
+      {cardDataArray &&
+        cardDataArray.map((data, index) => (
+          <Card
+            key={index}
+            imagePath={data.imagePath}
+            title={data.title}
+          />
+        ))}
     </div>
   );
 }

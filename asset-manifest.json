@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/uudisteleht/static/css/main.a8a23b28.css",
-    "main.js": "/uudisteleht/static/js/main.615c7376.js",
-    "static/js/787.91e1e63c.chunk.js": "/uudisteleht/static/js/787.91e1e63c.chunk.js",
-    "index.html": "/uudisteleht/index.html",
-    "main.a8a23b28.css.map": "/uudisteleht/static/css/main.a8a23b28.css.map",
-    "main.615c7376.js.map": "/uudisteleht/static/js/main.615c7376.js.map",
-    "787.91e1e63c.chunk.js.map": "/uudisteleht/static/js/787.91e1e63c.chunk.js.map"
+    "main.css": "/Uudisteleht/static/css/main.a8a23b28.css",
+    "main.js": "/Uudisteleht/static/js/main.41eb1521.js",
+    "static/js/787.91e1e63c.chunk.js": "/Uudisteleht/static/js/787.91e1e63c.chunk.js",
+    "index.html": "/Uudisteleht/index.html",
+    "main.a8a23b28.css.map": "/Uudisteleht/static/css/main.a8a23b28.css.map",
+    "main.41eb1521.js.map": "/Uudisteleht/static/js/main.41eb1521.js.map",
+    "787.91e1e63c.chunk.js.map": "/Uudisteleht/static/js/787.91e1e63c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8a23b28.css",
-    "static/js/main.615c7376.js"
+    "static/js/main.41eb1521.js"
   ]
 }

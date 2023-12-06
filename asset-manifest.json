@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uudisteleht/static/css/main.a8a23b28.css",
+    "main.js": "/uudisteleht/static/js/main.78466921.js",
+    "static/js/787.91e1e63c.chunk.js": "/uudisteleht/static/js/787.91e1e63c.chunk.js",
+    "index.html": "/uudisteleht/index.html",
+    "main.a8a23b28.css.map": "/uudisteleht/static/css/main.a8a23b28.css.map",
+    "main.78466921.js.map": "/uudisteleht/static/js/main.78466921.js.map",
+    "787.91e1e63c.chunk.js.map": "/uudisteleht/static/js/787.91e1e63c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8a23b28.css",
+    "static/js/main.78466921.js"
+  ]
+}
